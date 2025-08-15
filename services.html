@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive healthcare services at WellSpring Family Clinic including general practice, immunizations, family health, preventive care, and specialized medical treatments in Melbourne.">
+    <meta name="keywords" content="medical services, general practice, immunizations, family health, preventive care, healthcare Melbourne">
+    <title>Our Services - WellSpring Family Clinic</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>WellSpring Family Clinic</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="services.html" class="nav-link active">Services</a></li>
+                    <li><a href="bmi-calculator.html" class="nav-link">BMI Calculator</a></li>
+                    <li><a href="appointment.html" class="nav-link">Book Appointment</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <button id="studentInfoBtn" class="student-info-btn">Student Info</button>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Student Info Popup -->
+    <div id="welcomePopup" class="popup-overlay">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h2>Student Information</h2>
+                <div class="popup-subtitle">Assessment Project Details</div>
+            </div>
+            <div class="popup-body">
+                <div class="assessment-info">
+                    <h3>ICT502 - Internet and Web Development</h3>
+                    <p><strong>Assessment 2</strong></p>
+                    <div class="student-details">
+                        <p><strong>Student ID:</strong> S20250583</p>
+                        <p><strong>Student Name:</strong> Anshukumar Jayeshkumar Patel</p>
+                    </div>
+                </div>
+            </div>
+            <div class="popup-footer">
+                <button id="getStartedBtn" class="get-started-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Medical Services</h1>
+                <p>Comprehensive healthcare services tailored to meet your needs</p>
+            </div>
+        </section>
+
+        <!-- Services Content -->
+        <section class="services-content">
+            <div class="container">
+                <!-- General Practice -->
+                <div class="service-detail">
+                    <div class="service-detail-content">
+                        <div class="service-text">
+                            <h2 id="general-practice">General Practice</h2>
+                            <p>Our general practice services provide comprehensive primary healthcare for patients of all ages. We focus on preventive care, early diagnosis, and effective treatment of a wide range of medical conditions.</p>
+                            <h3>What We Offer:</h3>
+                            <ul>
+                                <li>Routine health check-ups and screenings</li>
+                                <li>Diagnosis and treatment of acute and chronic conditions</li>
+                                <li>Preventive care and health education</li>
+                                <li>Management of diabetes, hypertension, and heart disease</li>
+                                <li>Minor surgical procedures</li>
+                                <li>Health assessments and medical certificates</li>
+                            </ul>
+                            <a href="appointment.html" class="service-cta">Book Consultation</a>
+                        </div>
+                        <div class="service-image">
+                            <img src="images/general-practice-detail.jpg" alt="Doctor consulting with patient in examination room">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Immunizations -->
+                <div class="service-detail">
+                    <div class="service-detail-content reverse">
+                        <div class="service-text">
+                            <h2 id="immunizations">Immunizations</h2>
+                            <p>Stay protected with our comprehensive immunization services. We provide vaccines for all ages, from childhood immunizations to adult boosters and travel vaccines.</p>
+                            <h3>Vaccination Services:</h3>
+                            <ul>
+                                <li>Childhood immunization schedule</li>
+                                <li>Adult vaccination programs</li>
+                                <li>Travel vaccines and consultations</li>
+                                <li>Influenza vaccines (seasonal)</li>
+                                <li>COVID-19 vaccinations</li>
+                                <li>Occupational health vaccines</li>
+                            </ul>
+                            <a href="appointment.html" class="service-cta">Schedule Vaccination</a>
+                        </div>
+                        <div class="service-image">
+                            <img src="images/immunizations-detail.jpg" alt="Nurse preparing vaccination for patient">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Family Health -->
+                <div class="service-detail">
+                    <div class="service-detail-content">
+                        <div class="service-text">
+                            <h2 id="family-health">Family Health</h2>
+                            <p>Comprehensive healthcare services designed for the whole family. We provide specialized care for women, men, children, and elderly patients with a focus on family-centered health.</p>
+                            <h3>Family Health Services:</h3>
+                            <ul>
+                                <li>Women's health including cervical screening and family planning</li>
+                                <li>Men's health assessments and prostate screening</li>
+                                <li>Pediatric care and child development monitoring</li>
+                                <li>Elderly care and chronic disease management</li>
+                                <li>Mental health support and counseling</li>
+                                <li>Family planning and pregnancy care</li>
+                            </ul>
+                            <a href="appointment.html" class="service-cta">Book Family Consultation</a>
+                        </div>
+                        <div class="service-image">
+                            <img src="images/family-health-detail.jpg" alt="Happy family in medical clinic waiting area">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="services-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Schedule Your Appointment?</h2>
+                    <p>Our experienced medical team is here to provide you with the best healthcare services</p>
+                    <a href="appointment.html" class="cta-button">Book Appointment Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WellSpring Family Clinic</h3>
+                    <p>Your trusted healthcare partner in Melbourne</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="appointment.html">Book Appointment</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>123 Collins Street, Melbourne VIC 3000</p>
+                    <p>Phone: (03) 1234 5678</p>
+                    <p>Email: info@wellspringfamily.com.au</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WellSpring Family Clinic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

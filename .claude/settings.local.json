@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(magick identify:*)",
+      "Bash(powershell:*)",
+      "Bash(del \"D:\\2. Study\\Master of IT\\July 2025\\ICT502 - Internet and Web Development\\Assessment 2\\Main\\S20250583_ICT502_MEL\\resize_images.ps1\")",
+      "Bash(rm:*)",
+      "Bash(git checkout:*)",
+      "Bash(del image-compressor.html auto-compress.html instant-compress.html compress_images.ps1 resize_images.ps1)",
+      "Bash(git --version)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "defaultMode": "acceptEdits"
+  }
+}

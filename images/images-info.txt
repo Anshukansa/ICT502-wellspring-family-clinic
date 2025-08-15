@@ -1,0 +1,78 @@
+Melbourne Medical Clinic - Image Assets Information
+
+Required Images:
+1. clinic-hero.jpg (600x400) - Modern medical clinic interior with comfortable seating
+2. general-practice.png (80x80) - General practice icon
+3. immunizations.png (80x80) - Immunization icon  
+4. family-health.png (80x80) - Family health icon
+5. general-practice-detail.jpg (500x350) - Doctor consulting with patient in examination room
+6. immunizations-detail.jpg (500x350) - Nurse preparing vaccination for patient
+7. family-health-detail.jpg (500x350) - Happy family in medical clinic waiting area
+8. clinic-building.jpg (500x350) - Melbourne Medical Clinic building exterior
+9. dr-sarah-mitchell.jpg (300x250) - Dr. Sarah Mitchell, General Practitioner
+10. dr-james-wong.jpg (300x250) - Dr. James Wong, General Practitioner
+11. dr-emma-taylor.jpg (300x250) - Dr. Emma Taylor, General Practitioner
+12. modern-equipment.jpg (500x350) - Modern medical equipment in examination room
+13. phone-icon.png (24x24) - Phone icon
+14. email-icon.png (24x24) - Email icon
+15. location-icon.png (24x24) - Location icon
+16. emergency-icon.png (24x24) - Emergency icon
+17. map-placeholder.png (800x400) - Map showing Melbourne Medical Clinic location
+
+Note: For demonstration purposes, this website uses placeholder images from placeholder.com
+In a production environment, these would be replaced with actual clinic photos and professional headshots.
+
+All images should include appropriate alt text for accessibility and be optimized for web performance.
+
+ 1. clinic-hero.jpg (3:2 ratio)
+  "Modern medical clinic interior with comfortable seating, clean white walls, contemporary furniture, natural lighting through
+  large windows, professional healthcare environment, welcoming reception area"
+
+  2. general-practice.png (1:1 ratio)
+  "Minimalist medical icon, stethoscope symbol, clean line art style, professional blue color, simple design for web interface"
+
+  3. immunizations.png (1:1 ratio)
+  "Medical syringe icon, vaccination symbol, clean vector style, healthcare blue color scheme, professional medical iconography"        
+
+  4. family-health.png (1:1 ratio)
+  "Family silhouette icon with medical cross, parent and child figures, caring healthcare symbol, warm blue tones, simple clean
+  design"
+
+  5. general-practice-detail.jpg (10:7 ratio)
+  "Professional doctor in white coat consulting with patient in modern examination room, medical equipment visible, clean clinical      
+  environment, natural lighting, healthcare consultation scene"
+
+  6. immunizations-detail.jpg (10:7 ratio)
+  "Professional nurse in scrubs preparing vaccination for patient, medical syringe and vial, clean clinical setting, healthcare
+  safety protocols, reassuring medical care"
+
+  7. family-health-detail.jpg (10:7 ratio)
+  "Happy family with parents and children sitting in modern medical clinic waiting area, comfortable seating, welcoming
+  environment, healthcare facility interior"
+
+  8. clinic-building.jpg (10:7 ratio)
+  "Modern Melbourne medical clinic building exterior, contemporary architecture, glass frontage, professional signage, urban
+  healthcare facility, Australian cityscape"
+
+  9. dr-sarah-mitchell.jpg (6:5 ratio)
+  "Professional female doctor portrait, white medical coat, stethoscope, warm smile, confident healthcare professional, medical
+  background, professional headshot"
+
+  10. dr-james-wong.jpg (6:5 ratio)
+  "Professional male doctor portrait, white medical coat, stethoscope, approachable expression, experienced healthcare
+  practitioner, clinical background"
+
+  11. dr-emma-taylor.jpg (6:5 ratio)
+  "Professional female doctor portrait, medical attire, friendly demeanor, healthcare professional, modern clinic setting,
+  confident medical practitioner"
+
+  12. modern-equipment.jpg (10:7 ratio)
+  "State-of-the-art medical equipment in examination room, modern diagnostic tools, clean clinical environment, advanced healthcare     
+   technology, professional medical setting"
+
+  13-16. Icons (phone, email, location, emergency) (1:1 ratio)
+  "Minimalist contact icon, clean line art style, professional blue color, simple geometric design for web interface"
+
+  17. map-placeholder.png (2:1 ratio)
+  "Melbourne city map showing medical clinic location, street layout, landmark indicators, navigation pins, urban geography,
+  location marker for healthcare facility"
