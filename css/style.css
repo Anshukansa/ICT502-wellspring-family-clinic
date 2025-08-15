@@ -369,23 +369,31 @@ p {
 .hours-banner {
     background: linear-gradient(135deg, #4fc3f7, #29b6f6);
     color: white;
-    padding: 23px 0 17px;
+    padding: 20px 0;
     margin-top: 70px;
     text-align: center;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+}
+
+.hours-content {
+    width: 100%;
 }
 
 .hours-content h3 {
     font-size: 1.1rem;
-    margin-bottom: 5px;
-    color: #333;
+    margin-bottom: 4px;
+    color: white;
     font-weight: 600;
 }
 
 .hours-content p {
     font-size: 0.95rem;
-    color: #333;
+    color: white;
     font-weight: 500;
+    margin: 0;
 }
 
 /* Page Header */
@@ -1931,15 +1939,18 @@ h3 {
 /* Hours Banner Mobile */
 .hours-banner {
     margin-top: 60px;
-    padding: 15px 0;
+    padding: 18px 0;
+    min-height: 55px;
 }
 
 .hours-content h3 {
     font-size: 1rem;
+    margin-bottom: 3px;
 }
 
 .hours-content p {
     font-size: 0.8rem;
+    margin: 0;
 }
 
 /* Hero Section Mobile */
