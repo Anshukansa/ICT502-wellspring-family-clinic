@@ -2024,7 +2024,7 @@ h3 {
 /* About/Info Content Mobile */
 .info-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 30px;
     text-align: center;
 }
@@ -2050,7 +2050,7 @@ h3 {
 /* Facilities Mobile */
 .facilities-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 30px;
     text-align: center;
 }
@@ -2074,16 +2074,24 @@ h3 {
 
 .contact-method {
     padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
 }
 
 .contact-icon {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    min-height: 80px;
 }
 
 .contact-icon img {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
+    max-width: 45px;
+    max-height: 45px;
+    object-fit: contain;
 }
 
 /* BMI Calculator Mobile */
@@ -2111,7 +2119,7 @@ h3 {
 /* Service Detail Mobile */
 .service-detail-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 30px;
 }
 
@@ -2169,6 +2177,12 @@ h3 {
 .footer-content .footer-section:nth-child(2),
 .footer-content .footer-section:nth-child(3) {
     font-size: 0.9rem;
+}
+
+.footer-content .footer-section:nth-child(3) p {
+    word-break: break-all;
+    font-size: 0.8rem;
+    line-height: 1.4;
 }
 
 /* Popup Mobile */
