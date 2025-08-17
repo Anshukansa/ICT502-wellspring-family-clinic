@@ -50,10 +50,11 @@ S20250583_ICT502_MEL/
 - Form validation and error handling
 - Results display with health information
 
-### Form Validation
-- **Appointment Form**: Name, email, phone, date validation
-- **Contact Form**: Subject selection, message length validation
+### Form Validation & Submission
+- **Appointment Form**: Name, email, phone, date validation with Formspree integration
+- **Contact Form**: Subject selection, message length validation with Formspree integration
 - **Real-time Validation**: Immediate feedback on errors
+- **Working Form Submission**: Forms submit to Formspree endpoints for email delivery
 - **Accessibility**: ARIA labels and proper error messaging
 
 ### Responsive Design
@@ -154,8 +155,14 @@ Ready for deployment to:
 ## Development Notes
 - Images use placeholder.com for demonstration
 - In production, replace with actual clinic photos
-- All forms are client-side only (no backend)
+- **Forms are fully functional** with Formspree integration for email delivery
 - Map is placeholder (replace with Google Maps integration)
+
+## Form Integration
+- **Appointment Form**: Submits to `https://formspree.io/f/mrblvppe`
+- **Contact Form**: Submits to `https://formspree.io/f/mdkdveed`
+- **Email Delivery**: Forms automatically send emails when submitted
+- **Validation**: Client-side validation runs before submission
 
 ---
 
