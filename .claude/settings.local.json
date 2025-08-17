@@ -14,7 +14,10 @@
       "Bash(git add:*)",
       "Bash(git remote add:*)",
       "Bash(git branch:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "WebSearch",
+      "WebFetch(domain:animate.style)",
+      "WebFetch(domain:prismic.io)"
     ],
     "deny": [],
     "ask": [],
