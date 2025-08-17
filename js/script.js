@@ -132,7 +132,10 @@
         const ln = fd.get('lastName'); if (ln && !nameOk(ln)) { showField('lastName', 'Last name should only contain letters'); ok = false; }
         if (ok) submit();
       }
-      function submit() { hide(form); show($('#successMessage')); $('#successMessage').classList.add('fade-in-up'); $('#successMessage').scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+      function submit() { 
+        // Submit to Formspree
+        form.submit();
+      }
     }
 
     // Contact form
@@ -158,7 +161,10 @@
         const msg = fd.get('message'); if (msg && msg.length < 10) { showC('contactMessage', 'Message should be at least 10 characters long'); ok = false; }
         if (ok) submit();
       }
-      function submit() { hide(form); show($('#contactSuccessMessage')); $('#contactSuccessMessage').classList.add('fade-in-up'); $('#contactSuccessMessage').scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+      function submit() { 
+        // Submit to Formspree
+        form.submit();
+      }
     }
 
     const label = (n) => ({ firstName: 'First name', lastName: 'Last name', email: 'Email', phone: 'Phone', preferredDate: 'Preferred date' }[n] || n);
